@@ -18,6 +18,7 @@ public class AdminController {
 
 	@Autowired
 	StudentServiceI ssi;
+	int a=10;
 	
 	@RequestMapping("/")
 	public String preLogin() {
